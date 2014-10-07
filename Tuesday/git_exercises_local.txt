@@ -1,0 +1,125 @@
+# git exercise. Single developer and local repository.
+
+# Instructions: below you can find a list of steps that you are
+# requested to follow using a shell and issuing the appropriate git
+# commands. Please write down those same commands within this text
+# file just after each instruction item. This will help you to keep
+# track of what you did and to discuss with tutors. Note: this file is
+# a helpful place where to store your comments and notes about the
+# exercise.
+
+
+# Run the 'git' command and read carefully the output. It is a quick
+# way to revise some of the contents of the lecture.
+
+
+# Ask git about what it knows of the current directory. Hint: in git
+# terminology this is called "status". It is expected that git knows
+# nothing about the current directory. Isn't it?
+
+
+# It is time to introduce yourself to git. Set the global git
+# variables "user.name" and "user.email" according your personal
+# information. Hint: check out the slides of the lecture.
+
+
+# Verify that git has correctly stored your name and email. Hint: read
+# "git help config" to find out the way to get them.
+
+
+# Create a proper directory where you want to host a simple project
+# named "kindergarten". The current directory (e.g., home) is usually
+# fine but you could want a more meaningful place. Then move into the
+# directory you created. Just remember that all files and directories
+# in /tmp/ are thrown away at each reboot.
+
+
+# Create a new git repository within the current directory.
+
+
+# Verify that you have a brand new ".git/" directory full of
+# interesting things.
+
+
+# Ask git about the status and check out what changed with respect to
+# the last time you issued that command.
+
+
+# Create a file named hello.py that prints some salutation (unexpected
+# uh? :-) ). Use your favourite editor.
+
+
+# Ask git about the status and check out what changed with respect to
+# the last time you issued that command.
+
+
+# Put hello.py in the staging area.
+
+
+# Ask git about status and check out what changed with respect to the
+# last time you issued that command.
+
+
+# Now record changes to the repository.
+
+
+# Check status again, it is instructive.
+
+
+# Edit hello.py some more. Like importing numpy and printing some
+# random numbers, like np.random.rand(3).
+
+
+# See how the status changes accordingly.
+
+
+# Show changes between current and staged files.
+
+
+# Add changes into the staging area (index).
+
+
+# Show how the status changes accordingly:
+
+
+# Edit again hello.py , e.g., adding another print statement.
+
+
+# Commit *only* changes from the staging area:
+
+
+# Verify that changes not added to the staging area were not recorded:
+
+
+# Commit all changes in hello.py without going through the staging
+# area:
+
+
+# Edit hello.py again adding some lines, the create a new file
+# clock.py which imports the module 'time' and prints 'time.ctime()'.
+
+
+# Inspect the status and the changes.
+
+
+# Commit all the changes made in all files skipping the staging area
+# where possible.
+
+
+# See the logs of all commits.
+
+
+# See the logs of all commits with the git GUI.
+
+
+# Go crazy and mess with your files. Overwrite the content and/or
+# remove files.
+
+
+# Oh no! What I've done! Shame on me! Verify the status and the
+# differences.
+
+
+# Get rid of the last untracked changes and verify that everything is
+# back to normal. And relax: your work is safe.
+
