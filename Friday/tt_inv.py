@@ -18,7 +18,7 @@
 
 '''
 Shall become a nice script for Bayesian travel-time inversion
-Everything is Gausian, everything is good ...
+Everything is Gaussian, everything is good ...
 '''
 
 def RK(x,y):
