@@ -20,6 +20,8 @@
 Shall become a nice script for Bayesian travel-time inversion
 Everything is Gaussian, everything is good ...
 '''
+import numpy as np
+from numpy import asarray, ones_like
 
 def RK(x,y):
     """
@@ -65,10 +67,10 @@ Args:
 Returns:
     a nd-array of the shape of x
     """
-    from numpy import asarray, ones
-    x = asarray(x)
+    y = np.empty_like(x)
+    y.fill(8.)
 
-    return 8.0*ones(x.shape)
+    return y
 
 def traveltime(x, c):
     """
