@@ -21,7 +21,6 @@ Shall become a nice script for Bayesian travel-time inversion
 Everything is Gaussian, everything is good ...
 '''
 import numpy as np
-from numpy import asarray, ones_like
 
 def RK(x,y):
     """
@@ -30,9 +29,8 @@ def RK(x,y):
 Args:
     x, y: scalar or array of locations
     """
-    from numpy import exp, subtract, power, add, divide
 
-    return divide(1.0, add(1.0, power(subtract(x, y), 2)))
+    return 1.0/(1.0 + np.subtract(x, y)**2)
 
 
 def delta_c(x):
